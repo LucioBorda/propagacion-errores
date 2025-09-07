@@ -1,0 +1,29 @@
+EJEMPLO QUÍMICO: CONCENTRACIONES DE SOLUCIONES
+
+Problema:
+En un laboratorio se preparan dos soluciones:
+- Solución A: 15.7 ± 0.3 mol/L
+- Solución B: 8.9 ± 0.2 mol/L
+
+Se necesita:
+1. Concentración total al mezclarlas: A + B
+2. Diferencia de concentración: A - B
+
+Datos para el programa:
+A = 15.7, δA = 0.3
+B = 8.9, δB = 0.2
+
+Solución paso a paso:
+Suma: 15.7 + 8.9 = 24.6 mol/L
+Resta: 15.7 - 8.9 = 6.8 mol/L
+δ(A ± B) = √(0.3² + 0.2²) = √(0.09 + 0.04) = √0.13 = 0.361 mol/L
+
+Resultados:
+Concentración total: 24.6 ± 0.361 mol/L
+Diferencia: 6.8 ± 0.361 mol/L
+
+Aplicación:
+- Para mezclas: usar el resultado de la suma
+- Para purificación: considerar la diferencia
+- Error relativo suma: 1.47%
+- Error relativo resta: 5.31%

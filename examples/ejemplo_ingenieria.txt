@@ -1,0 +1,35 @@
+EJEMPLO INGENIERÍA: DISEÑO ESTRUCTURAL
+
+Problema:
+Un ingeniero calcula cargas en una viga:
+- Carga muerta: 450 ± 25 kg/m
+- Carga viva: 320 ± 30 kg/m
+
+Calcular:
+1. Carga total: Muerta + Viva
+2. Carga neta si se reduce la viva: Muerta - (Reducción)
+
+Donde Reducción = 80 ± 5 kg/m
+
+Caso 1 - Carga Total:
+A = 450, δA = 25
+B = 320, δB = 30
+
+Caso 2 - Carga Neta:
+A = 450, δA = 25  
+B = 80, δB = 5
+
+Soluciones:
+Caso 1:
+Carga total = 450 + 320 = 770 kg/m
+δ(total) = √(25² + 30²) = √(625 + 900) = √1525 = 39.1 kg/m
+Resultado: 770 ± 39.1 kg/m
+
+Caso 2:
+Carga neta = 450 - 80 = 370 kg/m
+δ(neta) = √(25² + 5²) = √(625 + 25) = √650 = 25.5 kg/m
+Resultado: 370 ± 25.5 kg/m
+
+Importancia:
+El error relativo en carga total (5.1%) vs carga neta (6.9%)
+afecta directamente el factor de seguridad del diseño.

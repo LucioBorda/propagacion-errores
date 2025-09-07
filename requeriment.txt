@@ -1,0 +1,2 @@
+# Como usamos solo librerías estándar, el archivo puede estar vacío o contener:
+echo "# Propagación de Errores - No requiere dependencias externas" > requirements.txt

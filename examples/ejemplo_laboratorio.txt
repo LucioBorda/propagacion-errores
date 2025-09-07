@@ -1,0 +1,34 @@
+EJEMPLO LABORATORIO: EXPERIMENTO DE DENSIDAD
+
+Problema:
+Medición indirecta de densidad usando dos métodos:
+- Método 1: ρ₁ = 2.85 ± 0.12 g/cm³
+- Método 2: ρ₂ = 2.91 ± 0.08 g/cm³
+
+Objetivos:
+1. Densidad promedio: (ρ₁ + ρ₂)/2 → necesitamos ρ₁ + ρ₂  
+2. Discrepancia entre métodos: |ρ₁ - ρ₂|
+
+Datos para el programa:
+A = 2.85, δA = 0.12
+B = 2.91, δB = 0.08
+
+Procedimiento experimental:
+Suma: 2.85 + 2.91 = 5.76 g/cm³
+Resta: 2.91 - 2.85 = 0.06 g/cm³ (diferencia absoluta)
+δ(ρ₁ ± ρ₂) = √(0.12² + 0.08²) = √(0.0144 + 0.0064) = √0.0208 = 0.144 g/cm³
+
+Resultados del laboratorio:
+Suma de densidades: 5.76 ± 0.144 g/cm³
+Densidad promedio: 2.88 ± 0.072 g/cm³
+Discrepancia: 0.06 ± 0.144 g/cm³
+
+Análisis de precisión:
+- Error relativo promedio: 2.5%
+- Error relativo discrepancia: 240% (muy alta incertidumbre)
+- Los métodos son consistentes dentro del margen de error
+- Se recomienda usar el promedio como valor final
+
+Conclusiones:
+La alta incertidumbre en la discrepancia es normal y indica
+que los métodos son compatibles estadísticamente.

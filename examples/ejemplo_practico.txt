@@ -1,0 +1,19 @@
+cat > examples/ejemplo_practico.txt << 'EOF'
+EJEMPLO PRÁCTICO: Propagación de Errores
+
+Problema:
+Se midieron dos longitudes:
+- L1 = 15.2 ± 0.1 cm
+- L2 = 8.7 ± 0.2 cm
+
+Calcular:
+1. L1 + L2 con su incertidumbre
+2. L1 - L2 con su incertidumbre
+
+Solución:
+δ(L1 ± L2) = √(δL1² + δL2²) = √(0.1² + 0.2²) = √0.05 = 0.224 cm
+
+Resultados:
+- Suma: 23.9 ± 0.224 cm
+- Resta: 6.5 ± 0.224 cm
+EOF

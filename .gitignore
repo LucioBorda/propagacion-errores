@@ -1,0 +1,31 @@
+# Crear archivo .gitignore para ignorar archivos innecesarios
+cat > .gitignore << 'EOF'
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos específicos del proyecto
+test_outputs/
+*.backup
+EOF

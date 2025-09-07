@@ -1,0 +1,30 @@
+EJEMPLO ESTADÍSTICO: ANÁLISIS DE DATOS
+
+Problema:
+Análisis de dos muestras poblacionales:
+- Media muestra 1: 85.7 ± 2.1 
+- Media muestra 2: 73.4 ± 1.8
+
+Calcular:
+1. Media combinada aproximada: (X₁ + X₂)/2 → necesitamos X₁ + X₂
+2. Diferencia entre medias: X₁ - X₂
+
+Datos para el programa:
+A = 85.7, δA = 2.1
+B = 73.4, δB = 1.8
+
+Solución:
+Suma: 85.7 + 73.4 = 159.1
+Resta: 85.7 - 73.4 = 12.3
+δ(A ± B) = √(2.1² + 1.8²) = √(4.41 + 3.24) = √7.65 = 2.77
+
+Resultados estadísticos:
+Suma de medias: 159.1 ± 2.77
+Media combinada aproximada: 79.55 ± 1.38
+Diferencia de medias: 12.3 ± 2.77
+
+Interpretación estadística:
+- Error relativo en suma: 1.74%
+- Error relativo en diferencia: 22.5%
+- La diferencia tiene mayor incertidumbre relativa
+- Importante para pruebas de hipótesis

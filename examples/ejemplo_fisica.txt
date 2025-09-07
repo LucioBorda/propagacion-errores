@@ -1,0 +1,28 @@
+EJEMPLO FÍSICO: MEDICIÓN DE VELOCIDAD
+
+Problema:
+Un estudiante mide la velocidad de un objeto calculando v = d/t
+- Distancia: d = 12.5 ± 0.2 metros
+- Tiempo: t = 2.1 ± 0.1 segundos
+
+Para encontrar la velocidad promedio, primero necesita:
+- Velocidad inicial estimada: v₁ = 5.8 ± 0.3 m/s  
+- Velocidad final estimada: v₂ = 6.2 ± 0.2 m/s
+
+Calcular: v_promedio = (v₁ + v₂)/2
+
+Datos para el programa:
+A = 5.8, δA = 0.3
+B = 6.2, δB = 0.2
+
+Solución paso a paso:
+v₁ + v₂ = 5.8 + 6.2 = 12.0 m/s
+δ(v₁ + v₂) = √(0.3² + 0.2²) = √(0.09 + 0.04) = √0.13 = 0.361 m/s
+
+Resultado:
+v_suma = 12.0 ± 0.361 m/s
+v_promedio = 6.0 ± 0.180 m/s
+
+Interpretación:
+La velocidad promedio es 6.0 m/s con una incertidumbre de ±0.18 m/s
+Error relativo: 3.0%
